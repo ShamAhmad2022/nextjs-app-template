@@ -1,26 +1,49 @@
 {
-  "name": "fxtweet-new",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.5"
-  },
-  "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.5"
-  }
+    "name": "fxtweet-new",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "react": "^18",
+        "react-dom": "^18",
+        "next": "14.2.5",
+        "@heroui/button": "^2.2.17",
+        "@heroui/input": "^2.4.17",
+        "@heroui/react": "^2.7.6",
+        "@heroui/system": "^2.4.13",
+        "@heroui/theme": "^2.4.13",
+        "@heroui/toast": "^2.0.7",
+        "@hookform/resolvers": "^5.0.1",
+        "@iconify/react": "^5.2.1",
+        "@reduxjs/toolkit": "^2.7.0",
+        "@tanstack/react-query": "^5.74.4",
+        "@types/negotiator": "^0.6.3",
+        "@types/node": "^20.17.16",
+        "@typescript-eslint/eslint-plugin": "^7.18.0",
+        "axios": "^1.8.4",
+        "eslint-plugin-react-refresh": "^0.4.19",
+        "framer-motion": "^12.7.4",
+        "negotiator": "^1.0.0",
+        "next-auth": "^4.24.11",
+        "react-hook-form": "^7.56.0",
+        "react-redux": "^9.2.0",
+        "redux-persist": "^6.0.0",
+        "sharp": "^0.34.1",
+        "typescript-eslint": "^7.2.0",
+        "zod": "^3.24.3"
+    },
+    "devDependencies": {
+        "@types/react": "^18",
+        "@types/react-dom": "^18",
+        "eslint": "^8",
+        "eslint-config-next": "14.2.5",
+        "postcss": "^8",
+        "tailwindcss": "^3.4.1",
+        "typescript": "^5"
+    }
 }

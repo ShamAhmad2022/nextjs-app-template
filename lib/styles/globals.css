@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --white: #ffffff;
+  --black: #001119;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+input[type="radio"] {
+  margin: 0;
+  width: 18px;
+  height: 18px;
+}
+
+@media (prefers-color-scheme: light) {
+  html {
+    color-scheme: light;
+  }
+}
+
+/* to remove the additional built in row in heroui tables */
+.w-px {
+  display: none !important;
+}
+
+.inter {
+  /* font-family: 'Inter'; */
+  font-family: "Euclid Circular A", sans-serif;
+}
